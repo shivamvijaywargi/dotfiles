@@ -8,6 +8,7 @@ Just clone the stuff and symlink the files to appropriate location and enjoy✨
 - starship
 - zsh
 - Brewfile
+- tmux
 
 ## steps to follow
 
@@ -30,4 +31,9 @@ ln -s ~/.dotfiles/nvim ~/.config/nvim
 
 # zsh config symlink
 ln -s ~/.dotfiles/zshrc ~/.zshrc
+
+# tmux config symlink
+ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+tmux source ~/.tmux.conf
 ```
