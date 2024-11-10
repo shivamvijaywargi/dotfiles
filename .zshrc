@@ -1,6 +1,9 @@
 # Q pre block. Keep at the top of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
 
+# Add deno completions to search path
+if [[ ":$FPATH:" != *":/Users/shivam/.zsh/completions:"* ]]; then export FPATH="/Users/shivam/.zsh/completions:$FPATH"; fi
+
 eval $(thefuck --alias)
 # You can use whatever you want as an alias, like for Mondays:
 eval $(thefuck --alias FUCK)
@@ -33,6 +36,8 @@ export PATH=$PATH:$(go env GOPATH)/bin
 export GPG_TTY=$(tty)
 
 eval "$(starship init zsh)"
+
+. "/Users/shivam/.deno/env"
 
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
