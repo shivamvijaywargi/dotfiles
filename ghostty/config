@@ -9,7 +9,7 @@ macos-option-as-alt = true
 custom-shader-animation = "always"
 alpha-blending = linear-corrected
 
-background-opacity = 0.9
+background-opacity = 0.92
 
 keybind = "global:ctrl+s=toggle_quick_terminal"
 
