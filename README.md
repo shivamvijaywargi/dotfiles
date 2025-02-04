@@ -36,4 +36,7 @@ ln -s ~/.dotfiles/zshrc ~/.zshrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux source ~/.tmux.conf
+
+# ghostty config symlink
+ln -s ~/.dotfiles/ghostty/ ~/.config/
 ```
