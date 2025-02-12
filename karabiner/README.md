@@ -2,10 +2,6 @@
 
 If you like TypeScript and want your Karabiner configuration maintainable & type-safe, you probably want to use the custom configuration DSL / generator I created in `rules.ts` and `utils.ts`!
 
-> “This repo is incredible - thanks so much for putting it together! I always avoided Karabiner mostly because of its complicated configuration. **Your project makes it so much easier to work with and so much more powerful. I'm geeking out on how much faster I'm going to be now.**”
->
-> — @jhanstra ([source](https://github.com/mxstbr/karabiner/pull/4))
-
 Watch the video about this repo:
 
 [<img width="772" alt="CleanShot 2024-04-17 at 17 47 16@2x" src="https://github.com/mxstbr/karabiner/assets/7525670/c8565c48-10ad-4479-b690-ddc35d1ca8ce">](https://www.youtube.com/watch?v=j4b_uQX3Vu0)
@@ -21,7 +17,7 @@ You probably don't want to use my exact configuration, as it's optimized for my 
 1. Install & start [Karabiner Elements](https://karabiner-elements.pqrs.org/)
 1. Clone this repository
 1. Delete the default `~/.config/karabiner` folder
-1. Create a symlink with `ln -s ~/github/mxstbr/karabiner ~/.config` (where `~/github/mxstbr/karabiner` is your local path to where you cloned the repository)
+1. Create a symlink with `ln -s ~/.dotfiles/karabiner ~/.config` (where `~/.dotfiles/karabiner` is your local path to where you cloned the repository)
 1. [Restart karabiner_console_user_server](https://karabiner-elements.pqrs.org/docs/manual/misc/configuration-file-path/) with `` launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_server ``
 
 ## Development

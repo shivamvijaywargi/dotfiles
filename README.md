@@ -39,4 +39,7 @@ tmux source ~/.tmux.conf
 
 # ghostty config symlink
 ln -s ~/.dotfiles/ghostty/ ~/.config/
+
+# karabiner config symlink
+ln -s ~/.dotfiles/karabiner ~/.config/karabiner
 ```
