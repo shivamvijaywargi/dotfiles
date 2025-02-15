@@ -10,7 +10,8 @@ custom-shader-animation = "always"
 alpha-blending = linear-corrected
 
 background-opacity = 0.92
+background-blur = 15
 
 keybind = "global:ctrl+s=toggle_quick_terminal"
 
-custom-shader = /Users/shivam/.dotfiles/ghostty/shaders/bloom025.glsl
+# custom-shader = /Users/shivam/.dotfiles/ghostty/shaders/bloom025.glsl
