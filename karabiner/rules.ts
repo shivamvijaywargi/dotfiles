@@ -67,8 +67,7 @@ const rules: KarabinerRules[] = [
     o: {
       a: app("Arc"),
       d: app("Discord"),
-      g: app("Ghostty"),
-      t: app("iTerm"),
+      t: app("Ghostty"),
       v: app("Visual Studio Code"),
       z: app("Zed"),
       f: app("Finder"),
