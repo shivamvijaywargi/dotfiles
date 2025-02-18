@@ -1043,17 +1043,6 @@
                     }
                 ]
             },
-            "devices": [
-                {
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": true,
-                        "product_id": 640,
-                        "vendor_id": 13364
-                    },
-                    "ignore": false
-                }
-            ],
             "name": "Default",
             "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         }
