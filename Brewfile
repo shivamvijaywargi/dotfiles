@@ -25,6 +25,8 @@ brew "gnupg"
 brew "go"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Modern load testing tool, using Go and JavaScript
+brew "k6"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Just-In-Time Compiler (JIT) for the Lua programming language
@@ -47,8 +49,12 @@ brew "python@3.11"
 brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Modern and pretty fancy file manager for the terminal
+brew "superfile"
 # Programmatically correct mistyped console commands
 brew "thefuck"
+# Terminal multiplexer
+brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
@@ -61,36 +67,48 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Stripe CLI utility
 brew "stripe/stripe-cli/stripe"
+# Enable Windows-like alt-tab
+cask "alt-tab"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Opensource IDE for exploring and testing api's
 cask "bruno"
 # Write, edit, and chat about your code with AI
 cask "cursor"
-# Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others
-cask "dbgate"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
 # Reimagine your terminal
 cask "fig"
 # Web browser
 cask "firefox@developer-edition"
+# Convert your caps lock key or any of your modifier keys to the hyper key
+cask "hyperkey"
 # Free and open-source media player
 cask "iina"
 # HTTP and GraphQL Client
 cask "insomnia"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Keyboard customiser
+cask "karabiner-elements"
 # Utility that shows the latest app updates
 cask "latest"
+# Application launcher
+cask "leader-key"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
+# Mouse control with the keyboard
+cask "mouseless"
 # Collaboration platform for API development
 cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Screenshot measurement and annotation tool
 cask "shottr"
+# Music streaming service
+cask "spotify"
 # System monitor for the menu bar
 cask "stats"
 # Text editor for code, markup and prose
@@ -120,6 +138,8 @@ vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-close-tag"
 vscode "formulahendry.auto-rename-tag"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "golang.go"
 vscode "graphql.vscode-graphql-syntax"
