@@ -17,6 +17,7 @@ plugins=(git web-search history macos z thefuck)
 alias c="code ."
 alias n="nvim"
 alias finder="open -a finder"
+alias lg="lazygit"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
