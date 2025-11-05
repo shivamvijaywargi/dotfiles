@@ -1,7 +1,7 @@
-theme = catppuccin-mocha
+theme = catppuccin mocha
 font-size = 14
 font-thicken = true
-window-padding-x = 0,0
+window-padding-x = 5,0
 window-padding-y = 0,0
 adjust-cell-height = 2
 macos-option-as-alt = true
