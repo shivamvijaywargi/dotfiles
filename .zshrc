@@ -1,6 +1,6 @@
+# Kiro CLI pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
 # Q pre block. Keep at the top of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
-
 # Add deno completions to search path
 if [[ ":$FPATH:" != *":/Users/shivam/.zsh/completions:"* ]]; then export FPATH="/Users/shivam/.zsh/completions:$FPATH"; fi
 
@@ -12,6 +12,8 @@ eval $(thefuck --alias FUCK)
 export ZSH="$HOME/.oh-my-zsh"
 
 plugins=(git web-search history macos z thefuck)
+
+export EDITOR="nvim"
 
 # Custom Aliases
 alias c="code ."
@@ -33,6 +35,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"export GPG_TTY=$(tty)
 eval "$(fzf --zsh)"
 
 export PATH=$PATH:$(go env GOPATH)/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export GPG_TTY=$(tty)
 
@@ -41,4 +47,6 @@ eval "$(starship init zsh)"
 . "/Users/shivam/.deno/env"
 
 # Q post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+
+# Kiro CLI post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
