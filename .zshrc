@@ -1,6 +1,3 @@
-# Kiro CLI pre block. Keep at the top of this file.
-[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.pre.zsh"
-# Q pre block. Keep at the top of this file.
 # Add deno completions to search path
 if [[ ":$FPATH:" != *":/Users/shivam/.zsh/completions:"* ]]; then export FPATH="/Users/shivam/.zsh/completions:$FPATH"; fi
 
@@ -30,7 +27,7 @@ source $ZSH/oh-my-zsh.sh
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"export GPG_TTY=$(tty)
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 eval "$(fzf --zsh)"
 
@@ -44,9 +41,13 @@ export GPG_TTY=$(tty)
 
 eval "$(starship init zsh)"
 
-. "/Users/shivam/.deno/env"
+export PATH="${PATH}:${HOME}/.local/share/nvim/mason/bin"
 
-# Q post block. Keep at the bottom of this file.
 
-# Kiro CLI post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
+# if command -v iris >/dev/null 2>&1; then
+#     alias i="iris"
+# fi
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
