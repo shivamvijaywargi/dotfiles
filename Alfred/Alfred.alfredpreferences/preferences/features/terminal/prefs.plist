@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application</key>
+	<integer>1</integer>
+	<key>custom</key>
+	<string>on alfred_script(q)
+	set wasRunning to application "Ghostty" is running
+	tell application "Ghostty"
+		activate
+		set cfg to new surface configuration
+
+		if not wasRunning then
+			repeat 20 times
+				if (count of windows) is greater than 0 then exit repeat
+				delay 0.05
+			end repeat
+		end if
+
+		if (count of windows) is 0 then
+			set win to new window with configuration cfg
+			set term to focused terminal of selected tab of win
+		else if not wasRunning then
+			set term to focused terminal of selected tab of front window
+		else
+			set t to new tab in front window with configuration cfg
+			set term to focused terminal of t
+		end if
+
+		if q is not "" then
+			input text q to term
+			send key "enter" to term
+		end if
+	end tell
+end alfred_script</string>
+</dict>
+</plist>

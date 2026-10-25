@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>4FD4A0DD-1EAB-485C-B708-48691AD55655</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gitmoji</string>
+			<key>text</key>
+			<string>gitmoji</string>
+			<key>url</key>
+			<string>https://gitmoji.dev/</string>
+		</dict>
+		<key>6B6B14C7-F4A3-49C8-B111-23779FD5AEE7</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>ch</string>
+			<key>spaces</key>
+			<string>+</string>
+			<key>text</key>
+			<string>CourseHunter</string>
+			<key>url</key>
+			<string>https://coursehunter.net/search?q={query}&amp;order_by=created_at&amp;order=desc&amp;searching=true</string>
+		</dict>
+		<key>AB44D1E7-0764-43D0-83AC-AF2277500211</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>giphy</string>
+			<key>spaces</key>
+			<string>-</string>
+			<key>text</key>
+			<string>Search Giphy for '{query}'</string>
+			<key>url</key>
+			<string>https://giphy.com/search/{query}</string>
+		</dict>
+		<key>D3DDECF0-AA0D-4692-99BF-180A90E9484D</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>smt</string>
+			<key>text</key>
+			<string>Search Simkl TV for '{query}'</string>
+			<key>url</key>
+			<string>https://simkl.com/search/?type=tv&amp;q={query}</string>
+		</dict>
+		<key>D4900FAA-FC9F-4E5B-A36F-54CDFCB3B565</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>tb</string>
+			<key>text</key>
+			<string>Open TorBox</string>
+			<key>url</key>
+			<string>https://torbox.app/</string>
+		</dict>
+		<key>DFE4C570-8AB6-4C81-8C79-732E295D1FB1</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>smm</string>
+			<key>text</key>
+			<string>Search Simkl Movie for '{query}'</string>
+			<key>url</key>
+			<string>https://simkl.com/search/?type=movies&amp;q={query}</string>
+		</dict>
+		<key>F0A0B876-1F26-4168-A4AB-3B38378D7ED4</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>defe</string>
+			<key>text</key>
+			<string>Search DownloadEverythingFromEverywhere for '{query}'</string>
+			<key>url</key>
+			<string>https://downloadeverythingfromeverywhere.com/?q={query}</string>
+		</dict>
+		<key>F73AD4A0-FECB-4897-B3F0-B5B14DE57C75</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>sma</string>
+			<key>text</key>
+			<string>Search Simkl Anime for '{query}'</string>
+			<key>url</key>
+			<string>https://simkl.com/search/?type=anime&amp;q={query}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
