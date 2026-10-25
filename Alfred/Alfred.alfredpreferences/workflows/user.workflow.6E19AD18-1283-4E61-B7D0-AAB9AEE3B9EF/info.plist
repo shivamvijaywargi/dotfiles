@@ -7,7 +7,21 @@
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>FF5268B1-8A07-482E-96D2-5771A48102B1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C69586D7-DC75-42E5-ADFB-7854FB27BE07</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>Shivam Vijaywargi</string>
 	<key>description</key>
@@ -32,7 +46,9 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>=</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -44,7 +60,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string></string>
+				<string>./raycalc "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -54,9 +70,9 @@
 				<key>title</key>
 				<string></string>
 				<key>type</key>
-				<integer>11</integer>
+				<integer>5</integer>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -65,11 +81,37 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C69586D7-DC75-42E5-ADFB-7854FB27BE07</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>C69586D7-DC75-42E5-ADFB-7854FB27BE07</key>
+		<dict>
+			<key>xpos</key>
+			<real>210</real>
+			<key>ypos</key>
+			<real>195</real>
+		</dict>
 		<key>FF5268B1-8A07-482E-96D2-5771A48102B1</key>
 		<dict>
 			<key>xpos</key>
